@@ -59,6 +59,10 @@ jobs:
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
+        if: contains(
+          'refs/heads/main
+          refs/heads/master
+          ', github.ref)
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
 
