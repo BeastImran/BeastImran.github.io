@@ -31,6 +31,9 @@ github:
 twitter:
   username: realbeastimran # change to your Twitter username
 
+telegram:
+  username: realbeastimran # change to your Twitter username
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -38,6 +41,7 @@ social:
   email: imsalmanran789@gmail.com # change to your email address
   links:
   # The first element serves as the copyright owner's link
+  - https://t.me/beastimran
   - https://twitter.com/realbeastimran # change to your Twitter homepage
   - https://github.com/beastimran # change to your GitHub homepage
   # Uncomment below to add more social links
@@ -101,7 +105,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: 'assets/profile pic.jpg'
+avatar: 'assets/profile pic.jpeg'
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
